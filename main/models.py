@@ -13,4 +13,4 @@ class Cont(models.Model):
         pass
     
     def __str__(self):
-        return f"{self.title} \n {self.content} \n({self.tag})"
+        return f"{self.title}  {self.content} ({self.tag})"
